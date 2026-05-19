@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.authBox {
+  background: white;
+  padding: 40px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+.authBox form {
+  display: flex;
+  flex-direction: column;
+}
+
+.authBox input {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.authBox button {
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.dashboardGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.left,
+.right {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.chatbot {
+  margin-bottom: 20px;
+}
+
+.chatbot input {
+  width: 70%;
+  padding: 10px;
+}
+
+.chatbot button {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.reply {
+  margin-top: 10px;
+  padding: 10px;
+  background: #eee;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+form button {
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
