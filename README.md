@@ -15,7 +15,12 @@ An AI-powered Complaint Management System built using the MERN Stack to simplify
 - ☁️ Cloud Deployment
 
 ---
+## 🌐 Live Demo
 
+- **Frontend:** https://smart-complaint-management-system-8pm3.onrender.com/
+- **Backend API:** https://smart-complaint-management-system-1-5lo0.onrender.com/
+
+---
 ## 🛠 Tech Stack
 
 ### Frontend
